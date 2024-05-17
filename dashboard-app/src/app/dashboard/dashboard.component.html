@@ -1,0 +1,13 @@
+
+
+<div class="dashboard-container">
+    <div class="dashboard-content">
+        <h1>Random Dog Image Dashboard</h1>
+        <button class="dashboard-button" (click)="loadNewImage()">Get New Doggggggg</button>
+        <br>
+        <div *ngIf="dogImageUrl">
+            <img class="dashboard-image" [src]="dogImageUrl" alt="Random Dog">
+        </div>
+    </div>
+</div>
+
